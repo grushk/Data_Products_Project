@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fuel Economy Predictor</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Fuel Economy Predictor">
+  <meta name="author" content="Grush Khalsa">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="http://slidifylibraries2.googlecode.com/git/inst/libraries/highlighters/highlight/css/zenburn.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="http://slidifylibraries2.googlecode.com/git/inst/libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/slides" 
+    src="http://slidifylibraries2.googlecode.com/git/inst/libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Fuel Economy Predictor</h1>
+    <h2></h2>
+    <p>Grush Khalsa<br/>Predicting how your car works based 24 samples</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>The problem</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>Have you ever wondered how fuel efficient your car is?</h3>
+
+<p>Do you really want to do the hard work of dividing your miles driven by the amount of gasoline you need when you are at a gas station? Of course not.</p>
+
+<p>Calculating fuel economy is a problem that affects at least tens of people. </p>
+
+<p>Imagine a world where this problem is erased for good. Imagine no longer. Presenting...</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The solution</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img width=95% src="./assets/img/FEP.png" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The Fuel Economy Predictor</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The Fuel Economy Predictor, patent pending, is a remarkable new algorithm that will tell you how fuel efficient your car is with hardly any work.</p>
+
+<p>You can access the amazing Fuel Economy Predictor here:</p>
+
+<p><a href="https://grush.shinyapps.io/FuelEconomyPredictor"><a href="https://grush.shinyapps.io/FuelEconomyPredictor">https://grush.shinyapps.io/FuelEconomyPredictor</a></a></p>
+
+<p>And the best part is, its FREE!</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>The Last Slide</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Thank you for watching this presentation on 06/21/15. </p>
+
+<p>The amazing Fuel Economy Predictor was created using the mtcars dataset in R. Here is a sample of the first 10 cars:</p>
+
+<pre><code class="r">mtcars[1:10,]
+</code></pre>
+
+<pre><code>##                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb
+## Mazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4
+## Mazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
+## Datsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
+## Hornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1
+## Hornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2
+## Valiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1
+## Duster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4
+## Merc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2
+## Merc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2
+## Merc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='The problem'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='The solution'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='The Fuel Economy Predictor'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The Last Slide'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+   
+  </html>
